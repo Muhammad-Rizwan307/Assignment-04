@@ -1,0 +1,10 @@
+void main() {
+  List wholeNumbers = [5, 87, 70, 45, 63, 90, 12, 24];
+  List EvenNumbers = [];
+  for (var i = 0; i < wholeNumbers.length; i++) {
+    if (wholeNumbers[i] % 2 == 0) {
+      EvenNumbers.add(wholeNumbers[i]);
+    } else {}
+  }
+  print('Even Numbers    $EvenNumbers');
+}

@@ -1,0 +1,17 @@
+import 'dart:io';
+
+void main() {
+  int n1, n2;
+  String choice = 'yes';
+  while (choice == 'yes') {
+    stdout.write('Enter first no');
+    n1 = int.parse(stdin.readLineSync()!);
+    stdout.write('Enter second no');
+    n2 = int.parse(stdin.readLineSync()!);
+
+    print('Sum = ${n1 + n2}');
+
+    stdout.write(stdin.readLineSync()!);
+    choice = stdin.readLineSync()!;
+  }
+}
